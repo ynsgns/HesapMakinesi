@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="241.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hesapmakinesi.FXMLDocumentController">
+    <children>
+        <Button id="bir" fx:id="bir" layoutX="49.0" layoutY="152.0" onAction="#birr" text="1">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <TextArea id="islemEkrani" fx:id="islemEkrani" editable="false" layoutX="6.0" layoutY="6.0" prefHeight="17.0" prefWidth="266.0" />
+      <Button id="sekiz" fx:id="sekiz" layoutX="100.0" layoutY="71.0" onAction="#sekizz" text="8">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="sifir" fx:id="sifir" layoutX="100.0" layoutY="194.0" onAction="#sifirr" text="0">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="dort" fx:id="dort" layoutX="49.0" layoutY="112.0" onAction="#dortt" text="4">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="yedi" fx:id="yedi" layoutX="47.0" layoutY="71.0" onAction="#yedii" text="7">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="dokuz" fx:id="dokuz" layoutX="150.0" layoutY="71.0" onAction="#dokuzz" text="9">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="iki" fx:id="iki" layoutX="100.0" layoutY="152.0" onAction="#ikii" text="2">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="bes" fx:id="bes" layoutX="100.0" layoutY="112.0" onAction="#bess" text="5">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="toplama" fx:id="toplama" layoutX="198.0" layoutY="71.0" onAction="#artii" text="+">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="alti" fx:id="alti" layoutX="150.0" layoutY="112.0" onAction="#altii" text="6">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="uc" fx:id="uc" layoutX="150.0" layoutY="152.0" onAction="#ucc" text="3">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="bolme" fx:id="bolme" layoutX="201.0" layoutY="152.0" onAction="#bolmee" text="/">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="carpma" fx:id="carpma" layoutX="152.0" layoutY="194.0" onAction="#carpmaa" text="*">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="cikarma" fx:id="cikarma" layoutX="200.0" layoutY="112.0" onAction="#eksii" text="-">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="virgul" fx:id="virgul" layoutX="53.0" layoutY="194.0" onAction="#temizle" text="C">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button id="esittir" fx:id="esittir" layoutX="198.0" layoutY="194.0" onAction="#esittirr" text="=">
+         <font>
+            <Font name="Lucida Bright Demibold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbl" layoutX="142.0" layoutY="43.0" />
+      <Button layoutX="20.0" layoutY="169.0" mnemonicParsing="false" onMouseClicked="#pAc" text="(" />
+      <Button layoutX="20.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#pKapat" text=")" />
+      <Button layoutX="21.0" layoutY="140.0" mnemonicParsing="false" onMouseClicked="#virgull" text="," />
+    </children>
+</AnchorPane>
